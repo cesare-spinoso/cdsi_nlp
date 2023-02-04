@@ -21,7 +21,7 @@ A description of the cool instructors.
 
 {% for workshop in site.workshops %}
   <h2>
-    <a href="{{ workshop.url }}">
+    <a href="{{ workshop.url | absolute_url }}">
       {{ workshop.title }}
     </a>
   </h2>
