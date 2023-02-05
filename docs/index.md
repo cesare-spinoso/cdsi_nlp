@@ -5,7 +5,7 @@
 layout: home
 title: Home
 order: 1
-permalink: cdsi_nlp
+permalink: /cdsi_nlp/
 ---
 
 Hello and welcome to the website for the Winter 2023 NLP Workshops offered by McGill's Computational and Data Systems Initiative (CDSI).
