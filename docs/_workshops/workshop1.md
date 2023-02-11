@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workshop 1 - Introduction to Natural Language Processing
-permalink: cdsi_nlp/workshops/workshop1
+permalink: workshops/workshop1
 ---
 {% highlight ruby %}
 def print_hi(name)
