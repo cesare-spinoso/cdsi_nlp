@@ -23,8 +23,8 @@ email: cesare.spinoso-dipiano@mail.mcgill.ca
 description: >- # this means to ignore newlines until "baseurl:"
   Natural Language Processing (NLP) Workshops offered at McGill under
   the Computational and Data Systems Initiative.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "cdsi_nlp" # the subpath of your site, e.g. /blog
+url: "https://cesare-spinoso.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima
@@ -36,6 +36,7 @@ collections:
     order:
       - workshop1.md
       - workshop2.md
+      - workshop3.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
