@@ -7,7 +7,7 @@ import click
 def main(lm_pickle: str):
     with open(lm_pickle, "rb") as f:
         lm = pickle.load(f)
-    lengths = [1, 2, 5, 10, 15, 20]
+    lengths = [1, 2, 5, 10, 15, 20, 50]
     seeds = range(5)
     generations = []
     for length in lengths:
